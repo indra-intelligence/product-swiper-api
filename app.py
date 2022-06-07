@@ -14,7 +14,7 @@ CORS(app)
 # {"id":4,"category":"Athlete","name":"Paul Rodriguex", "sport": "Skateboarder", "awards": "Eight-time X Games Medalist, Actor", "imageUrl":"assets/athletes/prod.png"}]
 
 
-products = [
+products2 = [
   {
         "product_id": 1,
         "category": "Product",
@@ -251,72 +251,78 @@ products1 = [
     }
 ]
 
-interests = [
+products = [
     {
         "product_id": 11,
-        "category": "Interest",
-        "name": "Surf",
+        "category": "Interest: Lifestyle",
+        "name": "Dieting",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/lifestyle/dieting.png"
     },
     {
         "product_id": 12,
-        "category": "Interest",
-        "name": "Nascar",
+        "category": "Interest: Sports",
+        "name": "NBA",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/sports/NBA.png"
     },
     {
-        "product_id": 13,
-        "category": "Interest",
-        "name": "Yoga",
+        "product_id": 12,
+        "category": "Interest: Lifestyle",
+        "name": "Nutrition",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/lifestyle/nutrition.png"
     },
     {
-        "product_id": 14,
-        "category": "Interest",
-        "name": "Football",
+        "product_id": 12,
+        "category": "Interest: Sports",
+        "name": "NFL",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/sports/NFL.png"
     },
     {
-        "product_id": 15,
-        "category": "Interest",
-        "name": "Basketball",
+        "product_id": 12,
+        "category": "Interest: Lifestyle",
+        "name": "Natural-Products",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/lifestyle/natural-products.png"
     },
     {
-        "product_id": 16,
-        "category": "Interest",
-        "name": "Fitness",
+        "product_id": 12,
+        "category": "Interest: Sports",
+        "name": "Surf",
         "product_attributes": {
             "color": "black",
-            "type": "shoes",
-            "style": "high",
         },
-        "image_link": SITE_NAME + "/cards/athletes/prod.png"
+        "image_link": SITE_NAME + "/cards/interests/sports/surf.png"
+    },
+    {
+        "product_id": 12,
+        "category": "Interest: Lifestyle",
+        "name": "Energy",
+        "product_attributes": {
+            "color": "black",
+        },
+        "image_link": SITE_NAME + "/cards/interests/lifestyle/energy.png"
+    },
+    {
+        "product_id": 12,
+        "category": "Athelete: Nascar",
+        "name": "Chase Elliot",
+        "product_attributes": {
+            "color": "black",
+        },
+        "image_link": SITE_NAME + "/cards/athletes/chase-elliott.png"
     }
 ]
 
